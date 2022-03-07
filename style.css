@@ -1,0 +1,33 @@
+.heading{
+
+    font-size: larger;
+
+}
+
+#Take_Snapshot:hover{
+
+    background-color: royalblue;
+
+}
+
+Canvas{
+
+    border-width: 10px;
+
+    border-style: ridge;
+
+    animation-name: Peanut;
+
+    animation-duration: 2s;
+
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes Peanut{
+
+    from{box-shadow:5px 5px 100px blue;}
+
+    to{box-shadow: 5px 5px 100px purple;}
+
+}
